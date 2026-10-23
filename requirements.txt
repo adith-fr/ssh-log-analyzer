@@ -1,0 +1,4 @@
+# SSH Log Analyzer - dependencies
+# This project uses ONLY the Python standard library (argparse, re, json,
+# collections, datetime, unittest). No third-party packages are required.
+# Python version: 3.8 or higher
