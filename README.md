@@ -20,7 +20,7 @@ Internet-facing SSH servers are attacked constantly by bots guessing passwords. 
 - **Included sample dataset:** [`sample_auth.log`](sample_auth.log) - a small fictional OpenSSH log using reserved documentation IP ranges (no real systems or people). It contains an attacker who gets in, a normal user with typos, and a slow scan.
 - **Real data:** the tool also works on any real `/var/log/auth.log` from a Linux server.
 
-> Repository link: https://github.com/YOUR-USERNAME/YOUR-REPO
+> Repository link: https://github.com/adith-fr/ssh-log-analyzer
 
 ## Technologies Used
 
@@ -33,8 +33,8 @@ No installation needed beyond Python 3.8+ (see `requirements.txt`).
 
 ```bash
 # 1. Get the project
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/adith-fr/ssh-log-analyzer.git
+cd ssh-log-analyzer
 
 # 2. Run on the sample log
 python3 Adith.O_SSHLogAnalyzer.py sample_auth.log --year 2026
